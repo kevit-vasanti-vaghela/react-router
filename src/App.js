@@ -17,13 +17,14 @@ import ProductDetail from "./pages/ProductDetail";
 
 
 // ANOTHER WAY OF DEFINING ROUTES
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <RootLayout />,
+    element: <RootLayout />,  
     errorElement: <Error />,
     children: [
-      {path: '' , element: <Home />},
+      {index: true, element: <Home />}, //path = ''
       {path: 'products', element: <Products />},
       {path: 'products/:productId', element: <ProductDetail />}
     ],
