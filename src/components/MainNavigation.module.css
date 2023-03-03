@@ -6,8 +6,6 @@
     justify-content: center;
   }
 
-  
-  
   .list {
     display: flex;
     justify-content: space-between;
@@ -26,6 +24,6 @@
   
   .list a:hover,
   .list a.active {
-    color: #463d3d;
+    color: #f0bdbd;
     text-decoration: underline;
   }
