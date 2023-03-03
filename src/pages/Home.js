@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <h1>Home page</h1>
-    </div>
+      <p>Go to <Link  to='/products'>the list of products.</Link></p>
+    </>
   )
 }
 
