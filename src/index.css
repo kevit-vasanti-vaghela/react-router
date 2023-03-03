@@ -14,3 +14,8 @@ body {
  a {
   color: rgb(167, 142, 190);
  }
+
+ main {
+  margin: 2rem auto;
+  text-align: center;
+}
